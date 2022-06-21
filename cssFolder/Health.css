@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+
+/* intro wrapper start  */
+.intro_wrapper{
+    width: 100%;
+    height:60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+/* intro wrapper end  */
+
+/* text ctn start  */
+
+.text_ctn{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_min_ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.read{
+    text-transform: uppercase;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+/* text ctn end  */
+
+/* image start  */
+
+    .img_ctn {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        overflow: hidden;
+        
+    }
+    .img_ctn img {
+        width:80%;
+        height: 120%;
+    }
+/* image end  */
+
+
+/* time table wrapper start */
+
+    .time_table_wrapper {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .type_wrapper {
+        width: 50%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .first_choose_type{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        
+    }
+    .box_one,.box_two,.box_three{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+    .box_one p,.box_two p,.box_three p{
+        font-size: 12px;
+    }
+    .box_three{
+        width: 150px;
+        height: 100px;
+    }
+     .second_choose_type{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        margin-top: 15px;
+    }
+    .check_time_wrapper {
+        width: 25%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+
+
+    }
+    .time_box {
+        text-align: center;
+    }
+    .time_box button{
+        text-transform: uppercase;
+        font-size: 15px;
+        padding:5px 10px;
+    }
+   
+
+
+
+/* time table wrapper end */
+
+/* member start  */
+.team_member_wrapper{
+    width: 100%;
+    height: 70vh;
+    padding: 20px 0px;
+}
+.member_detail{
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    /* border: 1px solid red; */
+   
+}
+.member_one{
+     text-align: center;
+ 
+}
+.member_img_ctn{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid blanchedalmond;
+    overflow: hidden;
+}
+.member_img_ctn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* member end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* intro wrapper media start  */
+
+    @media (max-width:750px) {
+        .text_min_ctn{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 10px;
+        }
+        .read{
+            text-transform: uppercase;
+            border: none;
+            padding: 5px 10px;
+            font-size: 10px;
+        }
+          .img_ctn {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        
+        }
+        .img_ctn img {
+        width:80%;
+        height: 110%;
+        }
+    }
+    @media (max-width:550px) {
+        .text_min_ctn h1{
+            font-size: 15px;
+        }
+        .text_min_ctn p{
+            font-size: 10px;
+        }
+          .img_ctn img {
+            width:100%;
+            height: 100%;
+        }
+    }
+    @media (max-width:450px) {
+    .intro_wrapper{
+            width: 100%;
+            height:60vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background:url(../images/lovepik-female-doctor-png-image_401598649_wh1200-removebg-preview.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top:10px;
+     }  
+    .text_min_ctn h1{
+            font-size: 10px;
+        }
+        .text_min_ctn p{
+            font-size: 9px;
+        }
+        .read{
+            text-transform: uppercase;
+            border: none;
+            padding: 5px 10px;
+            font-size: 8px;
+        }
+         .img_ctn {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            display: none;
+        
+        }
+
+
+        .img_ctn img {
+        width:80%;
+        height: 110%;
+        }
+            .text_ctn{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text_min_ctn h1{
+            font-size: 18px;
+        }
+        .text_min_ctn p{
+            font-size: 14px;
+        }
+        .read{
+            text-transform: uppercase;
+            border: none;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+    }
+    @media (max-width:400px) {
+        .intro_wrapper{
+            width: 100%;
+            height:60vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background:url(../images/lovepik-female-doctor-png-image_401598649_wh1200-removebg-preview.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top:10px;
+        }   
+        .img_ctn {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            display: none;
+        
+        }
+
+        .img_ctn img {
+        width:80%;
+        height: 110%;
+        }
+        .text_ctn{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text_min_ctn h1{
+            font-size: 18px;
+        }
+        .text_min_ctn p{
+            font-size: 14px;
+        }
+        .read{
+            text-transform: uppercase;
+            border: none;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+    }
+
+
+/* intro wrapper media end  */
+
+
+/* time table wrapper media start  */
+
+    @media (max-width:800px) {
+    .time_table_wrapper {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .type_wrapper {
+            display: none;
+    }     
+    .check_time_wrapper {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        box-shadow: 0 0 5px 2px black;
+        border-radius: 5px;
+
+    }
+    }
+
+
+/* time table wrapper media end  */
+
+/* member media start  */
+
+@media (max-width:850px) {
+    .member_one h3,p{
+        font-size: 18px;
+    }
+    .member_img_ctn{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid blanchedalmond;
+    overflow: hidden;
+    
+}
+.member_img_ctn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+}
+@media (max-width:670px) {
+     .member_one h3,p{
+        font-size: 15px;
+    }
+        .member_img_ctn{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid blanchedalmond;
+    overflow: hidden;
+}
+.member_img_ctn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+}
+@media (max-width:560px) {
+.member_detail{
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+   
+}
+     .member_one h3,p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:450px) {
+ .member_img_ctn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid blanchedalmond;
+    overflow: hidden;
+}
+.member_img_ctn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+}
+@media (max-width:350px) {
+    .member_detail{
+    width: 100%;
+    height: 70%;
+    display: block;
+    padding: 10px 0;
+    /* border: 1px solid red; */
+}
+.member_one{
+     text-align: center;
+     width: 50%;
+     display: block;
+     margin:  10px auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+}
+@media (max-width:250px) {
+        .member_detail{
+    width: 100%;
+    height: 70%;
+    display: block;
+    padding: 10px 0;
+ 
+}
+.member_one{
+     text-align: center;
+     width: 80%;
+     display: block;
+     margin:  10px auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid aqua;
+}
+}
+
+/* member media end  */
+
+
